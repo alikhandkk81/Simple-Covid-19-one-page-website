@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(covid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.main-header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 250px;
+    height: 70px;
+    padding-left: 60px;
+    margin-left: 80px
+}
+.main-header nav{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header nav a{
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 105%;
+    font-weight: 300;
+}
+.menubtn{
+    margin-right: 50px;
+}
+.main-header button{
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 100%;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.main-header button:hover{
+    color: #333;
+}
+.left-sec{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    text-align: center;
+        
+        
+}
+.left-sec h2{
+    color: #333;
+    font-size: 100%;
+    font-weight: 200;
+}
+.left-sec h1{
+    text-transform: capitalize;
+    font-size: 200%;
+}
+.left-sec button{
+    margin-top: 20px;
+    padding: 8px 15px;
+    font-size: 100%;
+    border: none;
+    background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.left-sec button:hover{
+    color: #333;
+}
